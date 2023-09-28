@@ -1,0 +1,35 @@
+.products{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-flow: row wrap;
+}
+.products .product{
+    width: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.products .product .title {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+.products .product .description {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.products .product img {
+    height: 300px;
+}
+.products .product .rate span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
